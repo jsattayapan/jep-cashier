@@ -1,0 +1,56 @@
+.registerTablePopup{
+  background-color: rgba(0, 0, 0, .6);
+  width:      100%;
+  height:     100%;
+  z-index:    10;
+  top:        0;
+  left:       0;
+  position:   fixed;
+}
+
+
+.registerTablePopupContent{
+  background-color: rgba(222, 222, 222, 1);
+  border-radius: 10px;
+  width: 700px;
+  height: 450px;
+  margin: -150px 0 0 -300px;
+  top:        50%;
+  left:       50%;
+  position:   fixed;
+}
+
+.sumPaymentBox {
+  border-radius: 5px;
+  padding: 10px;
+  margin: 0 10px;
+  background: rgb(130,203,255);
+ background: linear-gradient(149deg, rgba(130,203,255,1) 0%, rgba(3,150,255,1) 100%);
+  color: white;
+}
+
+.box1 {
+  background: rgb(227,133,86);
+background: linear-gradient(252deg, rgba(227,133,86,1) 0%, rgba(234,84,85,1) 100%);
+}
+
+.box2 {
+  background: rgb(206,159,252);
+background: linear-gradient(252deg, rgba(206,159,252,1) 0%, rgba(115,103,253,1) 100%);
+}
+.box3 {
+  background: rgb(226,176,255);
+background: linear-gradient(252deg, rgba(226,176,255,1) 0%, rgba(159,68,211,1) 100%);
+}
+.box4 {
+  background: rgb(249,119,148);
+background: linear-gradient(252deg, rgba(249,119,148,1) 0%, rgba(98,58,162,1) 100%);
+}
+.box5 {
+  background: rgb(252,207,49);
+background: linear-gradient(252deg, rgba(252,207,49,1) 0%, rgba(245,85,85,1) 100%);
+}
+.box6 {
+  background: rgb(247,97,161);
+background: linear-gradient(252deg, rgba(247,97,161,1) 0%, rgba(140,27,171,1) 100%); 
+}

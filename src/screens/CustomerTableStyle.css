@@ -1,0 +1,79 @@
+.newOrderItemsEdit:hover {
+  cursor: pointer;
+}
+
+.newOrderItems{
+  position: relative;
+}
+
+.editNewMenuItemFill{
+  background-color: rgba(0, 0, 0, .6);
+  width:      100%;
+  height:     100%;
+  z-index:    10;
+  top:        0;
+  left:       0;
+  position:   fixed;
+}
+
+.editNewMenuItemContent{
+  background-color: rgba(222, 222, 222, 1);
+  border-radius: 10px;
+  width: 300px;
+  height: 350px;
+  margin: -300px 0 0 -150px;
+  top:        50%;
+  left:       50%;
+  position:   fixed;
+}
+
+.loadingIcon{
+  width: 200px;
+  height: 200px;
+  margin: -100px 0 0 -100px;
+  top:        50%;
+  left:       50%;
+  position:   fixed;
+}
+
+.discountContent{
+  background-color: rgba(222, 222, 222, 1);
+  border-radius: 10px;
+  width: 400px;
+  height: 400px;
+  margin: -300px 0 0 -150px;
+  top:        50%;
+  left:       50%;
+  position:   fixed;
+}
+
+
+.deleteOrderIcon{
+  display: none;
+}
+.orderItem:hover > .deleteOrderIcon{
+  display: inline;
+}
+
+
+.paymentContent{
+  background-color: rgba(222, 222, 222, 1);
+  border-radius: 10px;
+  width: 600px;
+  height: 700px;
+  margin: -350px 0 0 -300px;
+  top:        40%;
+  left:       50%;
+  position:   fixed;
+}
+
+.changeContent{
+  background-color: rgba(222, 222, 222, 1);
+  border-radius: 10px;
+  width: 400px;
+  height: 200px;
+  margin: -100px 0 0 -200px;
+  top:        50%;
+  left:       50%;
+  position:   fixed;
+}
